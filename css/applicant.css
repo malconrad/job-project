@@ -1,0 +1,33 @@
+.sidebar{
+    /* background-color: #333; */
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color:#333;
+    height:100%;
+}
+.sidebar a{
+    margin-left:10px;
+    display: block;
+    color:#ffff;
+    padding-bottom: 10px;
+    font-size:20px;
+    font-weight:300;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.sidebar .last-btn{
+    margin-left:28%;
+    border: 1px solid #fff;
+    padding:5px 8px;
+    width: 150px;
+    background:#3945ec;
+    color: #fff;
+    border-radius: 10px;
+}
+.card{
+    position: relative;
+    display:flex;
+    flex-direction:column;
+}
+.context{
+    background-color: whitesmoke;
+}
